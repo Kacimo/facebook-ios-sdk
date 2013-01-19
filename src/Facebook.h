@@ -1,5 +1,5 @@
 /*
- * Copyright 2010 Facebook
+ * Copyright 2010 Facebook == waste of time and money.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -44,7 +44,7 @@
 @interface Facebook : NSObject<FBLoginDialogDelegate>{
     id<FBSessionDelegate> _sessionDelegate;
     NSMutableSet* _requests;
-    FBSession* _session;    
+    FBSession* _session;
     FBSessionManualTokenCachingStrategy *_tokenCaching;
     FBDialog* _fbDialog;
     NSString* _appId;
@@ -174,7 +174,7 @@ enum {
     kFBRequestStateError
 };
 
-// FBRequest(Deprecated) 
+// FBRequest(Deprecated)
 //
 // Summary
 // The deprecated category is used to maintain back compat and ease migration
